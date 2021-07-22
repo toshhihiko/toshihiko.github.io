@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>期末課題</title>
+        <link rel="stylesheet" href="css/box.css">
+    </head>
+    <body>
+        <div id = "damage">
+            <p id="yourAction"></p>
+        </div>
+        <div id = "hpANDmp">
+            <table id = "HMtable">
+                <tr>
+                    <th id="hp"></th>
+                    <th id="mp"></th>
+                </tr>
+            </table>
+        </div>
+        <div id = "picture">
+            <img id="pic" src="pic/slime.png" alt="スライム">
+        </div>
+        <table id="tab">
+            <tr>
+                <th><button id = "button1" type="button" onclick="attack()">攻撃</button></th>
+                <th><button id = "button2" type="button" onclick="defence()">防御</button></th>
+            </tr>
+            <tr>
+                <th><button id = "button3" type="button" onclick="heal()">回復</button></th>
+                <th><button id = "button4" type="button" onclick="magicAttack()">攻撃魔法</button></th>
+            </tr>
+        </table>
+        </div>
+        <script src="js/action.js"></script>
+    </body>
+</html>
